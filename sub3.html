@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPAL University</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/symbol.png">
+    <link rel="stylesheet" href="./css/substyle3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div id="header">
+            <a href="./index.html">
+                <h1 class="logo">
+                    <img src="./images/OPAL University.png" alt="logo" width="140px">
+                </h1>
+            </a>
+            <div id="gnb">
+                <ul>
+                    <li><a href="#">입주안내
+                            <span class="left-bar"></span>
+                            <span class="right-bar"></span>
+                        </a>
+                        <ul class="sub1">
+                            <li><a href="./sub.html">입주자격</a></li>
+                            <hr>
+                            <!-- <li><a href="#">장기요양등급<br>테스트 및 신청</a></li>
+                            <hr> -->
+                            <li><a href="#">입주서비스</a></li>
+                            <hr>
+                            <li><a href="#">입주문의</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">평생돌봄
+                            <span class="left-bar2"></span>
+                            <span class="right-bar2"></span>
+                        </a>
+                        <!-- <ul class="sub2">
+                            <li><a href="#">OPAL</a></li>
+                            <hr>
+                            <li><a href="#">요양센터</a></li>
+                        </ul> -->
+                    </li>
+                    <li><a href="./sub3.html">웰빙클럽
+                            <span class="left-bar2"></span>
+                            <span class="right-bar2"></span>
+                        </a>
+                        <!-- <ul class="sub3">
+                            <li><a href="#">의료센터</a></li>
+                            <hr>
+                            <li><a href="#">스포츠&문화센터</a></li>
+                        </ul> -->
+                    </li>
+                </ul>
+            </div>
+            <div id="login">
+                <a href="#"><img src="./images/icon_login.png" alt=""></a>
+            </div>
+            <div id="ebor">
+                <a href="#"><img src="./images/ebor.png" width="120px" alt=""></a>
+            </div>
+        </div>
+
+        <!-- asidebar -->
+
+        <div id="asidebar">
+            <ul>
+                <li><a href="#">
+                        <div class="iconbox"><img class="callimg" src="./images/asidebaricon1.png" width="25px" alt="">
+                        </div>
+                        <div class="tbox">
+                            <p>전화상담</p>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="iconbox"><img class="qaimg" src="./images/asidebaricon2.png" width="35px" alt="qa">
+                        </div>
+                        <div class="tbox">
+                            <p>입주문의</p>
+                        </div>
+                    </a></li>
+                <li><a href="https://maps.app.goo.gl/oVdAHY13fP3TgcAK8" target="_blank">
+                        <div class="iconbox"><img class="mapimg" src="./images/asidebaricon3.png" width="35px"
+                                alt="map">
+                        </div>
+                        <div class="tbox">
+                            <p>오시는길</p>
+                        </div>
+                    </a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">
+                        <div class="iconbox"><img class="youtubeimg" src="./images/asidebaricon4.png" width="40px"
+                                alt="youtube"></div>
+                        <div class="tbox">
+                            <p>Youtube</p>
+                        </div>
+                    </a></li>
+                <li><a href="#section1">
+                        <div class="iconbox"><img class="topimg" src="./images/asidebaricon5.png" width="30px"
+                                alt="top">
+                        </div>
+                        <div class="tbox">
+                            <p>TOP</p>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+        <h1 class="introd">웰빙클럽</h1>
+        <p class="introp">의료센터 및 스포츠·문화센터의 정보를 확인하실 수 있습니다.</p>
+        <img class="banner_img" src="./images/sub3/banner_img.png" alt="">
+    </div>
+
+
+
+    <!-- section1 e -->
+    <!-- section2 s -->
+    <div id="section2">
+
+        <div class="switches-container">
+            <input type="radio" id="tab1" name="tab" value="content1" checked />
+            <input type="radio" id="tab2" name="tab" value="content2" />
+            <label for="tab1" class="tab-switch">의료센터</label>
+            <label for="tab2" class="tab-switch">스포츠·문화센터</label>
+            <div class="switch-wrapper">
+                <div class="switch">
+                    <div>의료센터</div>
+                    <div>스포츠·문화센터</div>
+                </div>
+            </div>
+        </div>
+        <div id="tap-content">
+
+            <!-- 의료센터 -->
+            <div id="content1" class="tap-panel on">
+                <div id="content_inner">
+                    <h1>센터소개</h1>
+                    <p class="centerex">OPAL University 의료센터에는 <span class="whitebg">가정의학과, 신경과, 내과, 재활의학과</span> 전문의가
+                        근무하고 <br>
+                        대상자 개개인의 특성과 상황에 맞는<span class="whitebg">개별화된 진료</span>를 제공하고 있습니다.</p>
+                    <ul id="dc" data-aos="fade-up" data-aos-duration="100000">
+                        <li><img src="./images/sub3/dc1.png" alt=""></li>
+                        <li><img src="./images/sub3/dc2.png" alt=""></li>
+                        <li><img src="./images/sub3/dc3.png" alt=""></li>
+                        <li><img src="./images/sub3/dc4.png" alt=""></li>
+                    </ul>
+                </div>
+                <div id="content_inner2">
+                    <h1>층별안내</h1>
+                    <img data-aos="flip-left" src="./images/sub3/floor.png" alt="">
+                </div>
+                <div id="content_inner3">
+                    <h1>진료·예약안내</h1>
+                    <div id="reserve_wrap">
+                        <div class="mapbox">
+                            <h2>방문예약</h2>
+                            <p>신분증을 지참하고 접수창구에서 예약하시면 됩니다.</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2375.853044395534!2d129.03565472037627!3d35.098923272275044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568e90af8798c73%3A0x4e3015aa23966ba!2z67aA7IKw64KY656Y65SU7J6Q7J247ZWZ7JuQ!5e0!3m2!1sko!2skr!4v1727075162601!5m2!1sko!2skr"
+                                width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <ul class="reservebox">
+                            <li>
+                                <h2>전화예약</h2>
+                                <p>평일 : 오전 9시 - 오후 4시<br>051-971-0221, 8102</p>
+                            </li>
+                            <li>
+                                <h2>진료시간</h2>
+                                <p>평일 : 오전 9시 - 오후 5시<br>주말 : 오전 9시 - 오후 1시<br>점심시간 : 12시 - 13시 (주말 제외)</p>
+                            </li>
+                            <li>
+                                <h2>온라인예약</h2>
+                                <p>최소한 2일 이상의 여유를 두고 <br>
+                                    신청하는게 좋습니다. </p>
+                                <div class="pt">
+                                    <p>
+                                        예약일자 변경과 취소는 <br>
+                                        하루 전 12시까지 가능합니다.</p>
+                                </div>
+                                <button class="online">온라인예약 바로가기</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 스포츠·문화센터 -->
+            <div id="content2" class="tap-panel">
+                <div id=container>
+                    여기는 
+                    <div id=flip>
+                      <div><div>행복</div></div>
+                      <div><div>배움</div></div>
+                      <div><div>건강</div></div>
+                      <div><div>열정</div></div>
+                    </div>
+                    넘치는곳!
+                  </div>
+                  
+            </div>
+        </div>
+    </div>
+
+
+    <!-- \footer> -->
+    <div id="footer_wrap">
+        <div id="footer_top">
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">개인정보의 수집 및 이용목적</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+            </ul>
+        </div>
+        <div id="footer_center">
+            <h1><img src="./images/OPAL University.png" width="120px" alt=""></h1>
+            <div class="contents">
+                <p>주소 : 부산광역시 중구 중앙대로 26 다원중앙타워 빌딩 10층<br>
+                    사업자등록번호 : 136-81-15412 / TEL : 051-208-1541 / FAX : 051-208-1544</p>
+                <h2 class="num">입주문의<br><span class="blue35">02.1234.4567</span></h2>
+            </div>
+        </div>
+        <div id="footer_bottom">
+            <p>COPYRIGHT @ OPAL UNIVERSITY.ALL RIGHTS RESERVED.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+
+        // aos
+        AOS.init();
+
+        // top button
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 500);//움직이는 시간 조정
+                        return false;
+                    }
+                }
+            });
+        });
+
+        // gnb
+        $("#gnb li").mouseenter(function () {
+            $(this).toggleClass("open");
+        });
+        $("#gnb li").mouseleave(function () {
+            $(this).toggleClass("open");
+        });
+
+        // tab
+        $(function () {
+            $("#tap>li").click(function () {
+                $(this).addClass("on").siblings().removeClass("on");
+            });
+        });
+
+
+        $(document).ready(function () {
+            $("#tap-content > div").last().hide();
+            var radioContent = $("#tap-content > div");
+            $("input[type='radio']").click(function () {
+                radioContent.hide();
+                radioContent.eq($("input[type='radio']").index(this)).show();
+            });
+        });
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
