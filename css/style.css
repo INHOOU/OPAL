@@ -24,6 +24,7 @@ body {
 /* section1 */
 
 #section1 {
+  width: 1920px;
   height: 970px;
   min-width: 1920px;
   overflow:hidden;
@@ -640,6 +641,7 @@ top: 8px;
 /* section2 */
 
 #section2 {
+  width:1920px;
   height: 970px;
   min-width: 1920px;
   overflow:hidden;
