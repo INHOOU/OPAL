@@ -23,6 +23,7 @@ body {
 /* section1 */
 
 #section1 {
+    min-width: 1920px;
     position: relative;
     height: 540px;
     background-image: url(../images/sub3/sub3bg.png);
@@ -485,6 +486,7 @@ body {
 /* section2 */
 
 #section2 {
+    min-width: 1920px;
     height: 4100px;
     background-image: linear-gradient(to bottom , #ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff, #dbd2ff);
 }
