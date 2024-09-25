@@ -18,14 +18,14 @@ body {
   line-height: 24px;
   font-size: 16px;
   font-family: "Noto Sans KR", system-ui;
-  min-width: 1900px;
+  min-width: 1920px;
 }
 
 /* section1 */
 
 #section1 {
   height: 970px;
-  min-width: 1900px;
+  min-width: 1920px;
 }
 
 #header {
@@ -640,7 +640,8 @@ top: 8px;
 
 #section2 {
   height: 970px;
-  min-width: 1900px;
+  min-width: 1920px;
+  overflow:hidden;
 }
 
 .wrapper {
@@ -955,7 +956,7 @@ top: 8px;
 
 #section3_wrap {
   height: 800px;
-  min-width: 1900px;
+  min-width: 1920px;
 }
 
 .rig {
@@ -1386,7 +1387,7 @@ top: 8px;
   height: 900px;
   position: relative;
   overflow: hidden;
-  min-width: 1900px;
+  min-width: 1920px;
 }
 
 #section4 h1 {
@@ -1485,7 +1486,7 @@ top: 8px;
 
 /* section5 */
 #section57 {
-min-width: 1900px;
+min-width: 1920px;
 }
 
 
@@ -2076,7 +2077,7 @@ min-width: 1900px;
 
 /* footer_top */
 #footer_top {
-  min-width: 1900px;
+  min-width: 1920px;
   background-color: #f0f0f0;
   text-align: center;
 }
@@ -2127,7 +2128,7 @@ min-width: 1900px;
 /* footer_bottom */
 
 #footer_bottom {
-  min-width: 1900px;
+  min-width: 1920px;
   background-color: #f0f0f0;
   text-align: center;
   padding: 10px 0;
