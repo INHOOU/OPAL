@@ -24,6 +24,7 @@ body {
 
 #section1 {
   height: 970px;
+  min-width: 1920px;
 }
 
 #header {
@@ -638,6 +639,7 @@ top: 8px;
 
 #section2 {
   height: 970px;
+  min-width: 1920px;
 }
 
 .wrapper {
@@ -952,6 +954,7 @@ top: 8px;
 
 #section3_wrap {
   height: 800px;
+  min-width: 1920px;
 }
 
 .rig {
@@ -1382,6 +1385,7 @@ top: 8px;
   height: 900px;
   position: relative;
   overflow: hidden;
+  min-width: 1920px;
 }
 
 #section4 h1 {
@@ -1481,6 +1485,7 @@ top: 8px;
 /* section5 */
 
 #section5 {
+  min-width: 1920px;
   width: 1440px;
   height: 1000px;
   margin: 0 auto;
@@ -1644,6 +1649,7 @@ top: 8px;
 /* section6 */
 
 #section6 {
+  min-width: 1920px;
   height: 1000px;
   width: 1440px;
   margin: 140px auto;
@@ -1967,6 +1973,7 @@ top: 8px;
 
 /* section7 */
 #section7 {
+  min-width: 1920px;
   height: 570px;
 }
 
@@ -2066,6 +2073,7 @@ top: 8px;
 
 /* footer_top */
 #footer_top {
+  min-width: 1920px;
   background-color: #f0f0f0;
   text-align: center;
 }
@@ -2087,6 +2095,7 @@ top: 8px;
   height: 150px;
   margin: 0 auto;
   font-size: 15px;
+  min-width: 1920px;
 }
 
 #footer_center h1 {
@@ -2115,6 +2124,7 @@ top: 8px;
 /* footer_bottom */
 
 #footer_bottom {
+  min-width: 1920px;
   background-color: #f0f0f0;
   text-align: center;
   padding: 10px 0;
