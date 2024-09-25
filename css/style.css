@@ -1485,7 +1485,6 @@ top: 8px;
 /* section5 */
 
 #section5 {
-  min-width: 1440px;
   width: 1440px;
   height: 1000px;
   margin: 0 auto;
@@ -1649,7 +1648,6 @@ top: 8px;
 /* section6 */
 
 #section6 {
-  min-width: 1440px;
   height: 1000px;
   width: 1440px;
   margin: 140px auto;
@@ -1973,7 +1971,6 @@ top: 8px;
 
 /* section7 */
 #section7 {
-  min-width: 1920px;
   height: 570px;
 }
 
