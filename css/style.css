@@ -26,6 +26,7 @@ body {
 #section1 {
   height: 970px;
   min-width: 1920px;
+  overflow:hidden;
 }
 
 #header {
