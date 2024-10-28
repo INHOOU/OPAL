@@ -284,16 +284,6 @@ body {
     display: block;
 }
 
-/*   
-  #gnb ul>li:nth-child(2):hover .sub2 {
-    display: block;
-  }
-  
-  #gnb ul>li:nth-child(3):hover .sub3 {
-    display: block;
-  }
-  
-   */
 
 
 /* login */
@@ -585,7 +575,6 @@ body {
 }
 
 
-/* tap */
 /* tap */
 input[type="radio"] {display:none;}
 input[id = "tab1"]:checked ~ .content1 {display:block;}
@@ -922,7 +911,6 @@ margin-top: 1200px;
     color: #ffffff;
     font-size: 32px;
     font-weight: 800;
-    /* margin-left:0px; */
 }
 .bggreen {
     background-color: #28cece;
@@ -1009,6 +997,7 @@ margin-top: 1200px;
     -webkit-transform: scale(1.4);
     animation: none;
     transform: scale(1.4);
+    transition: all 0.2s ease-out;
 }
 
 
